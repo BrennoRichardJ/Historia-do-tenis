@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎾 Lendas do Tênis</title>
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/861/861512.png">
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+        color: #333;
+    }
+
+    /* LOGO FIXA */
+    .logo-top {
+        position: fixed;
+        top: 10px;
+        left: 15px;
+        font-size: 32px;
+        font-weight: bold;
+        color: #1565c0;
+        cursor: default;
+        z-index: 1000;
+        text-shadow: 1px 1px 2px #aaa;
+    }
+
+    header {
+        background-color: #1565c0;
+        padding: 15px 15px 15px 100px;
+        text-align: center;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    }
+
+    nav a {
+        color: white;
+        margin: 0 20px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+        transition: color 0.3s;
+    }
+
+    nav a:hover {
+        color: #ffeb3b;
+    }
+
+    h1, h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+        color: #1565c0;
+        text-shadow: 2px 2px 5px #aaa;
+    }
+
+    h2 {
+        font-size: 22px;
+        color: #424242;
+    }
+
+    .conteudo {
+        padding: 30px;
+        max-width: 1300px;
+        margin: auto;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0 15px;
+        margin-top: 30px;
+    }
+
+    th {
+        background-color: #64b5f6;
+        color: white;
+        font-size: 18px;
+        padding: 12px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    td {
+        background: #f1f8ff;
+        padding: 15px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        transition: transform 0.3s, background 0.3s;
+    }
+
+    td:hover {
+        transform: scale(1.02);
+        background: #e0f0ff;
+    }
+
+    td img {
+        width: 140px;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 15px;
+        border: 3px solid #1565c0;
+    }
+
+    .trofeu {
+        color: gold;
+        font-size: 20px;
+    }
+
+    footer {
+        background: #1565c0;
+        color: white;
+        text-align: center;
+        padding: 50px 20px 20px 20px;
+        position: relative;
+        margin-top: 40px;
+    }
+
+    .links-pequenos {
+        position: absolute;
+        bottom: 10px;
+        right: 15px;
+        font-size: 14px;
+    }
+
+    .links-pequenos a {
+        color: #ffeb3b;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+    .links-pequenos a:hover {
+        text-decoration: underline;
+    }
+
+    .footer-titles h1 {
+        font-size: 28px;
+        margin: 10px 0 5px 0;
+    }
+
+    .footer-titles h2 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .footer-titles {
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+    }
+
+    /* Destaque para títulos grandes na tabela */
+    .titulo-jogador {
+        font-weight: bold;
+        font-size: 20px;
+        color: #1565c0;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="logo-top">TDB</div>
+
+<header>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="historia.html">História</a>
+        <a href="jogadores.html">Jogadores</a>
+    </nav>
+</header>
+
+<div class="conteudo">
+    <h1>🏆 Lendas do Tênis</h1>
+    <h2>Conheça detalhes completos dos maiores jogadores da história</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Foto</th>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Nascimento</th>
+                <th>País</th>
+                <th>Altura</th>
+                <th>Peso</th>
+                <th>Mão dominante</th>
+                <th>Ranking Mais Alto</th>
+                <th>Grand Slams</th>
+                <th>Tempo de Carreira</th>
+                <th>Estilo de Jogo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="imagens/Roger-Federer.jpg" alt="Roger Federer"></td>
+                <td class="titulo-jogador">Roger Federer</td>
+                <td>42</td>
+                <td>8 de agosto de 1981</td>
+                <td>Suíça</td>
+                <td>1,85 m</td>
+                <td>85 kg</td>
+                <td>Destro</td>
+                <td>1º</td>
+                <td>20 🎾</td>
+                <td>1998–2022</td>
+                <td>Ofensivo, saque e voleio</td>
+            </tr>
+            <tr>
+                <td><img src="imagens/RAfael.jpg" alt="Rafael Nadal"></td>
+                <td class="titulo-jogador">Rafael Nadal</td>
+                <td>36</td>
+                <td>3 de junho de 1986</td>
+                <td>Espanha</td>
+                <td>1,85 m</td>
+                <td>85 kg</td>
+                <td>Destro (canhoto reverso)</td>
+                <td>1º</td>
+                <td>22 🎾</td>
+                <td>2001–presente</td>
+                <td>Defensivo, força e topspin</td>
+            </tr>
+            <tr>
+                <td><img src="imagens/Kow.jpg" alt="Novak Djokovic"></td>
+                <td class="titulo-jogador">Novak Djokovic</td>
+                <td>36</td>
+                <td>22 de maio de 1987</td>
+                <td>Sérvia</td>
+                <td>1,88 m</td>
+                <td>77 kg</td>
+                <td>Destro</td>
+                <td>1º</td>
+                <td>24 🎾</td>
+                <td>2003–presente</td>
+                <td>Defensivo, contra-ataque rápido</td>
+            </tr>
+            <tr>
+                <td><img src="imagens/Serena.jpg" alt="Serena Williams"></td>
+                <td class="titulo-jogador">Serena Williams</td>
+                <td>41</td>
+                <td>26 de setembro de 1981</td>
+                <td>Estados Unidos</td>
+                <td>1,75 m</td>
+                <td>70 kg</td>
+                <td>Destra</td>
+                <td>1º</td>
+                <td>23 🎾</td>
+                <td>1995–2022</td>
+                <td>Poderoso saque e agressiva na rede</td>
+            </tr>
+            <tr>
+                <td><img src="imagens/Martina.jpg" alt="Martina Navratilova"></td>
+                <td class="titulo-jogador">Martina Navratilova</td>
+                <td>66</td>
+                <td>18 de outubro de 1956</td>
+                <td>República Tcheca / EUA</td>
+                <td>1,73 m</td>
+                <td>62 kg</td>
+                <td>Canhota</td>
+                <td>1º</td>
+                <td>18 🎾</td>
+                <td>1975–2006</td>
+                <td>Agressiva na rede, saque e voleio</td>
+            </tr>
+            <tr>
+                <td><img src="imagens/peter.jpg" alt="Pete Sampras"></td>
+                <td class="titulo-jogador">Pete Sampras</td>
+                <td>51</td>
+                <td>12 de agosto de 1971</td>
+                <td>Estados Unidos</td>
+                <td>1,85 m</td>
+                <td>85 kg</td>
+                <td>Destro</td>
+                <td>1º</td>
+                <td>14 🎾</td>
+                <td>1988–2002</td>
+                <td>Saques potentes, voleio e ofensivo</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<footer>
+    <div class="footer-titles">
+        <h1>🏆 Lendas do Tênis</h1>
+        <h2>Continue navegando e conheça história, torneios e estilos de jogo</h2>
+    </div>
+
+    <div class="links-pequenos">
+        Continue navegando: 
+        <a href="index.html">Início</a> | 
+        <a href="historia.html">História</a>
+    </div>
+</footer>
+
+</body>
+</html>
